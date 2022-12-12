@@ -39,8 +39,10 @@ import Fahad from "../images/Fahad-Professional-1.jpeg";
 import RelDigital from "../images/RelDigital.png";
 import AirGarage from "../images/AirGarage.png";
 import LoseIt from "../images/LoseIt.png";
+import linkedin from "../images/linkedin.png";
 
 export default {
+  linkedin,
   email,
   mobile,
   api,

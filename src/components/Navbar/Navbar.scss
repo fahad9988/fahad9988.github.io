@@ -19,7 +19,7 @@ z-index: 2;
  a{
   font-size: 30px;
   text-decoration: none;
-  color: var(--gray-color);
+  color: black;
  }
 }
 
@@ -44,7 +44,7 @@ z-index: 2;
    margin-bottom: 5px;
   }
   a{
-   color: var(--gray-color);
+   color: black;
    text-decoration: none;
    flex-direction: column;
    text-transform: uppercase;
@@ -74,7 +74,7 @@ z-index: 2;
  padding: 10px 15px;
  font-weight: 500;
  font-size: 16px;
- background-color: var(--gray-color);
+ background-color:black;
  color: rgb(248, 247, 247);
  border: none;
  border-radius: 5px;
@@ -83,10 +83,10 @@ transition: all 0.3s ease;
 
 &:hover{
   background-color: white;
-  color: var(--gray-color);
+  color: black;
   
   font-weight: 600;
-  border: 2px solid var(--gray-color);
+  border: 2px solid black;
 }
 
 @media screen and (max-width:900px) {
@@ -104,7 +104,7 @@ transition: all 0.3s ease;
  display: flex;
  justify-content: center;
  align-items: center;
- background: var(--secondary-color);
+ background: black;
 
  svg{
   width: 70%;
@@ -138,7 +138,7 @@ transition: all 0.3s ease;
   svg{
    width: 35px;
    height: 35px;
-   color: var(--secondary-color);
+   color: black;
    margin: 0.5rem 1rem;
   }
 
@@ -156,7 +156,7 @@ transition: all 0.3s ease;
    li{
     margin: 1rem;
     a {
-     color: var(--gray-color);
+     color: black;
      text-decoration: none;
      font-size: 1rem;
      text-transform: uppercase;

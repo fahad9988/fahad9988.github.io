@@ -1,0 +1,129 @@
+.Footer-Head{
+ font-size: 40px;
+ text-align: center;
+ margin-bottom: 50px;
+ text-decoration: underline;
+ 
+ @media screen and (max-width:1100px) {
+ font-size: 30px;
+ }
+}
+
+.app__footer{
+ flex: 1;
+ width: 100%;
+ flex-direction: column;
+}
+
+.app__footer-cards{
+ width: 60%;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ flex-wrap: wrap;
+ margin: auto;
+ margin-top: 4rem ;
+
+
+ .app__footer-card{
+  min-width: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+
+  img{
+   width: 40px;
+   height: 40px;
+   margin: 0 0.7rem;
+  }
+  p{
+   font-weight: 600;
+  }
+  a{
+   text-decoration: none;
+   font-weight: 500;
+   color: black;
+  }
+  &:hover{
+   box-shadow: 0 0 25px white;
+  }
+  @media screen and (max-width:480px) {
+   width: 100%;
+  }
+
+ }
+
+ @media screen and (max-width:768px) {
+  width: 100%;
+ }
+}
+
+.app__footer-form{
+width: 60%;
+flex-direction: column;
+margin: auto;
+margin-top: 1.5rem;
+
+
+div{
+ width: 100%;
+ margin: 0.75rem 0;
+ border-radius: 10px;
+ cursor: pointer;
+ 
+
+
+
+ transition: all 0.3s ease-in-out;
+
+ input,textarea{
+  width: 100%;
+  padding: 0.95rem;
+  border: none;
+  border-radius: 7px;
+
+  background-color: var(--white-color);
+  font-family: var(--font-base);
+  color: black;
+  outline: none;
+ }
+ textarea{
+  height: 170px;
+ }
+}
+
+button{
+ padding: 1rem 2rem;
+ border-radius: 10px;
+ border: none;
+ background-color: black;
+ font-weight: 500;
+ color: var(--white-color);
+ outline: none;
+ margin: 2rem 0 0 0;
+ font-family: var(--font-base);
+
+ transition: all 0.3s ease;
+ cursor: pointer;
+
+ &:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: 700;
+}
+}
+
+@media screen and (max-width:768px) {
+ width: 100%;
+ margin: 1rem 0;
+}
+}
