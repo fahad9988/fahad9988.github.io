@@ -3,6 +3,7 @@
  text-align: center;
  margin-bottom: 50px;
  text-decoration: underline;
+ 
  @media screen and (max-width:1100px) {
  font-size: 30px;
  }
@@ -18,7 +19,7 @@
 }
 
 .app__project-item{
- background-color: var(--white-color);
+ background-color: var(--primary-color);
  border-radius: 10px;
  width: 450px;
  display: flex;
@@ -28,8 +29,24 @@
  margin: 2rem;
 padding: 30px;
 text-align: center;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 transition: all 0.2s ease;
+
+@media screen and (max-width:700px) {
+  width: 400px;
+}
+
+@media screen and (max-width:650px) {
+  width: 300px ;
+  padding: 20px;
+ }
+
+ @media screen and (max-width:550px) {
+  width: 230px ;
+  padding: 20px;
+ }
+ 
+ 
 
 &:hover{
  background-color: var(--gray-color);
@@ -41,19 +58,60 @@ transition: all 0.2s ease;
   font-weight: 500;
   border: 2px solid var(--gray-color);
  }
+
+
 }
 
 h2{
  margin: auto;
  margin-top: 10px;
  margin-bottom: 5px;
+
+ @media screen and (max-width:700px) {
+   font-size: 18px;
 }
+
+@media screen and (max-width:650px) {
+  font-size: 18px;
+ }
+
+ @media screen and (max-width:550px) {
+  font-size: 18px;
+ }
+}
+
  img{
   width: 100%;
   height: 225px;
   border-radius: 10px;
   border: 3.5px solid var(--gray-color);
   object-fit: cover;
+  @media screen and (max-width:700px) {
+    height: 175px;
+  }
+  
+  @media screen and (max-width:650px) {
+    height: 145px;
+   }
+
+   @media screen and (max-width:550px) {
+   height: 100px;
+   }
+
+   .app_desc{
+    @media screen and (max-width:700px) {
+      font-size: 15px;
+   }
+   
+   @media screen and (max-width:650px) {
+     font-size: 15px;
+    }
+   
+    @media screen and (max-width:550px) {
+     font-size: 13px;
+    }
+   }
+   
  }
  .app_tech-stack{
   margin: auto;
@@ -61,6 +119,19 @@ h2{
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 15px;
+
+
+  @media screen and (max-width:700px) {
+    font-size: 16px;
+ }
+ 
+ @media screen and (max-width:650px) {
+   font-size: 16px;
+  }
+ 
+  @media screen and (max-width:550px) {
+   font-size: 14px;
+  }
  }
  
 }
@@ -71,6 +142,10 @@ h2{
  width: 250px;
  justify-content: space-between;
  margin: auto;
+ @media screen and (max-width:550px) {
+  width: 170px ;
+  
+ }
  
 
  button{
@@ -85,6 +160,12 @@ h2{
   color: var(--white-color);
   transition: all 0.3s ease;
 cursor: pointer;
+
+@media screen and (max-width:550px) {
+  padding:3px 7px ;
+  font-size: 15px;
+  font-weight: 300;
+ }
   
  }
 }

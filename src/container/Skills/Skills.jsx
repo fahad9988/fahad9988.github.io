@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState,useEffect } from 'react';
 import {motion} from "framer-motion";
-import {AppWrap} from "../../wrapper";
+import {AppWrap,MotionWrap} from "../../wrapper";
 import ReactTooltip from "react-tooltip";
 import images from "../../constants/images";
 
@@ -48,4 +48,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default AppWrap(MotionWrap(Skills,'app__skills'),"Skills",'app__primarybg')

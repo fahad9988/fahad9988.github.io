@@ -1,7 +1,7 @@
 import React from 'react';
 import "./About.scss";
 import { images } from '../../constants';
-import { AppWrap } from '../../wrapper';
+import { AppWrap,MotionWrap } from '../../wrapper';
 
 const About = () => {
   return (
@@ -23,4 +23,4 @@ const About = () => {
   )
 }
 
-export default AppWrap(About,"About");
+export default AppWrap(MotionWrap(About,"app__about"),"About","app__whitebg");

@@ -2,7 +2,7 @@ import React from 'react';
 import "./Projects.scss";
 import {motion} from "framer-motion";
 import images from '../../constants/images';
-import { AppWrap } from '../../wrapper';
+import { AppWrap,MotionWrap } from '../../wrapper';
 
 const projects=[{
   image:images.AirGarage,
@@ -43,7 +43,7 @@ const Projects = () => {
     >
     <img src={item.image} alt={item.title} />
     <h2>{item.title}</h2>
-    <p>{item.desc}</p>
+    <p className='app_desc' >{item.desc}</p>
     <p className='app_tech-stack'>Tech Stack: {item.tech}</p>
     <div className='project-btn' >
       <a target="_blank" href={item.git}><button>Github</button></a><a target="_blank" href={item.deploy}><button>Live Site</button></a>
@@ -56,4 +56,4 @@ const Projects = () => {
   )
 }
 
-export default AppWrap(Projects,"Projects")
+export default AppWrap(MotionWrap(Projects,'app__works'),"Projects",'app__whitebg')
