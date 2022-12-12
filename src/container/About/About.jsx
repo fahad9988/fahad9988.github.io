@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.scss";
 import { images } from '../../constants';
+import { AppWrap } from '../../wrapper';
 
 const About = () => {
   return (
@@ -22,4 +23,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(About,"About");

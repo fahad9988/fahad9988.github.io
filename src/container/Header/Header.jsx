@@ -2,6 +2,7 @@ import React from 'react';
 import "./Header.scss";
 import {motion} from "framer-motion";
 import {images} from "../../constants";
+import { AppWrap } from '../../wrapper';
 
 const scaleVariants={
   whileInView:{
@@ -71,4 +72,4 @@ alt="profile_circle"
   )
 }
 
-export default Header
+export default AppWrap(Header,"Home")
