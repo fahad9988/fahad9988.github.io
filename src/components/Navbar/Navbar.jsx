@@ -19,7 +19,7 @@ const [toggle, setToggle] = React.useState(false)
         </li>
         ))}
       </ul>
-      <a href="../../../public/download/resume.pdf" download ><button className='app__nav-btn'>Resume</button></a>
+      <a href="../../download/Fahad-Arif-Resume.pdf" download ><button className='app__nav-btn'>Resume</button></a>
       <div className='app__navbar-menu' >
 <HiMenuAlt4 onClick={()=>{setToggle(true)}} />
 

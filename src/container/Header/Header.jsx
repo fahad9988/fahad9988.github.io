@@ -38,7 +38,7 @@ const Header = () => {
 <p className='p-text' >Programmer</p>
 </div>
 
-<a href="../../../public/download/resume.pdf" download ><button className='app__header-btn'>Resume</button></a>
+<a href="../../download/Fahad-Arif-Resume.pdf" download ><button className='app__header-btn'>Resume</button></a>
 
 </div>
      </motion.div>
