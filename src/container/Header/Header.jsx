@@ -29,7 +29,7 @@ const Header = () => {
 <span>👋</span>
 <div style={{marginLeft:20}}>
   <p className='p-text' >Hello, I am</p>
-  <h1 className='head-text' >Fahad</h1>
+  <h1 className='head-text head-head' >Fahad</h1>
 </div>
 </div>
 
@@ -37,6 +37,8 @@ const Header = () => {
 <p className='p-text-1' >Full Stack Web Developer</p>
 <p className='p-text' >Programmer</p>
 </div>
+
+<a href="../../../public/download/resume.pdf" download ><button className='app__header-btn'>Resume</button></a>
 
 </div>
      </motion.div>

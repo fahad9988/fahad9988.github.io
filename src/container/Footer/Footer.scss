@@ -27,6 +27,7 @@
 
  .app__footer-card{
   min-width: 290px;
+  height: 75px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -35,7 +36,7 @@
   margin: 1rem 0;
   padding: 1rem;
   border-radius: 10px;
-  cursor: pointer;
+  
   background-color: white;
   transition: all 0.3s ease-in-out;
 
@@ -43,14 +44,24 @@
    width: 40px;
    height: 40px;
    margin: 0 0.7rem;
+   cursor: pointer;
   }
+ .github-img{
+  width: 35px;
+   height: 35px;
+ }
+ .mail-img{
+  width: 35px;
+   height: 35px;
+ }
   p{
    font-weight: 600;
   }
   a{
-   text-decoration: none;
+    text-decoration: none;
    font-weight: 500;
    color: black;
+   cursor: pointer;
   }
   &:hover{
    box-shadow: 0 0 25px white;

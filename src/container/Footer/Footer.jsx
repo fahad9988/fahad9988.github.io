@@ -46,25 +46,27 @@ const handleSubmit=()=>{
     <div id="Footer">
       <h1 className='Footer-Head' >Contact Me</h1>
       <div className="app__footer-cards">
-        <div className="app__footer-card">
-          <a href="mailto:fahad20830@gmail.com"><img src={images.email} alt="email" /></a>
-          <a href="mailto:fahad20830@gmail.com" className='p-text' >fahad20830@gmail.com</a>
-        </div>
 
         <div className="app__footer-card">
-          <a href="tel:+91 6389052323" ><img src={images.mobile} alt="mobile" /></a> 
+          <a href="mailto:fahad20830@gmail.com"><img className='mail-img' src={images.mail} alt="email" /></a>
+          <a href="mailto:fahad20830@gmail.com" className='p-text' >fahad20830@gmail.com</a>
+        </div>
+        
+        <div className="app__footer-card">
+          <a href="tel:+91 6389052323" ><img src={images.phone} alt="mobile" /></a> 
           <a href="tel:+91 6389052323" className='p-text' >+91 6389052323</a>
         </div>
 
         <div className="app__footer-card">
-          <a target="_blank" href="https://github.com/fahad9988"><img src={images.gitHub} alt="gitHub" /></a>
+          <a target="_blank" href="https://github.com/fahad9988"><img className='github-img' src={images.gitHub} alt="gitHub" /></a>
           <a href="https://github.com/fahad9988" target="_blank" className='p-text' >Github</a>
         </div>
 
         <div className="app__footer-card">
-        <a target="_blank" href="https://www.linkedin.com/in/fahad-arif-9975b0239/"><img src={images.linkedin} alt="linkedin" /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/fahad-arif-9975b0239/"><img  src={images.linkedin} alt="linkedin" /></a>
           <a href="https://www.linkedin.com/in/fahad-arif-9975b0239/" target="_blank" className='p-text' >Linkedin</a>
         </div>
+
       </div>
 
       {!formSubmit?<div className="app__footer-form app__flex">
