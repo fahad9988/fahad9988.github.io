@@ -2,6 +2,7 @@ import React from 'react';
 import "./GitHub.scss";
 import Calender from '../../components/Calendar';
 import Stats from '../../components/Stats';
+import { MotionWrap } from '../../wrapper';
 
 const GitHub = () => {
   return (
@@ -13,4 +14,4 @@ const GitHub = () => {
   )
 }
 
-export default GitHub
+export default MotionWrap(GitHub,"github-works");
