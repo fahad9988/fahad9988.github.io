@@ -101,6 +101,9 @@ transition: all 0.3s ease;
    @media screen and (max-width:550px) {
     font-size: 38px;
    }
+   @media screen and (max-width:330px) {
+    font-size: 34px;
+   }
   }
  }
 
@@ -130,6 +133,9 @@ transition: all 0.3s ease;
 
    @media screen and (max-width:550px) {
     font-size: 14px;
+   }
+   @media screen and (max-width:330px) {
+    font-size: 13px;
    }
   }
  }
