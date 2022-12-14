@@ -3,24 +3,24 @@ img{
  height: 100%;
 }
 
-.hi{
+.streak-div{
  width: 550px;
  margin: auto;
 
  @media screen and (max-width:900px) {
-  width: 400px;
+  width: 500px;
   }
 
   @media screen and (max-width:700px) {
-   width: 300px;
+   width: 350px;
    }
    @media screen and (max-width:500px){
-    width: 200px;
+    width: 300px;
    }
  
 }
 
-.wow{
+.lang-div{
   width: 850px;
   height: 300px;
   display: flex;
@@ -33,15 +33,32 @@ img{
   height: 250px;
   }
   @media screen and (max-width:700px) {
-   width: 400px;
+   width: 450px;
    height: 175px;
    }
    @media screen and (max-width:500px){
     width: 300px;
-    height: 100px;
+    height: auto;
+    flex-direction: column;
+    padding: 25px;
+    .stat-img{
+      margin-top: 25px;
+    }
    }
 }
 
-
+.cal-div{
+   margin: auto;
+   margin-bottom: 70px;
+   @media screen and (max-width:900px) {
+      margin-bottom: 50px;
+      }
+      @media screen and (max-width:700px) {
+         margin-bottom: 40px;
+         }
+         @media screen and (max-width:500px){
+            margin-bottom: 30px;
+         }
+}
 
 

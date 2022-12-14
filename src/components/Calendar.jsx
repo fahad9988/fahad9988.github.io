@@ -20,16 +20,16 @@ const Calender = () => {
     });
   };
   return (
-    <div style={{width:"80%",margin:"auto",marginBottom:"100px",}} >
+    <div className="cal-div" style={{width:"90%"}} >
       <GitHubCalendar
         style={{ margin: "auto",width:"100%" }}
         username="fahad9988"
         transformData={selectLastHalfYear}
-        blockSize={20}
+        blockSize={27}
         fontSize={15}
         color="darkblue"
         hideTotalCount="false"
-        
+        blockMargin={4}
       >
          <ReactTooltip delayShow={20} html /> 
       </GitHubCalendar>

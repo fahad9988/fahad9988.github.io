@@ -4,7 +4,7 @@ const Stats = () => {
   return (
     // streak 
     <div>
-      <div className="hi"  >
+      <div className="streak-div"  >
         <a href="https://github.com/fahad9988">
           <img
             align="left"
@@ -13,7 +13,7 @@ const Stats = () => {
         </a>
       </div>
  
-      <div className="wow">
+      <div className="lang-div">
         <a href="https://github.com/fahad9988">  
           <img
             align="center"
@@ -22,6 +22,7 @@ const Stats = () => {
         </a>
         <a href="https://github.com/fahad9988">
           <img
+          className="stat-img"
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=fahad9988&count_private=true&show_icons=true" //stats
           />
