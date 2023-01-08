@@ -38,7 +38,7 @@ const Header = () => {
 <p className='p-text' >Programmer</p>
 </div>
 
-<a href="../../download/Fahad-Arif-Resume.pdf" download ><button className='app__header-btn'>Resume</button></a>
+<a href="https://drive.google.com/uc?export=download&id=1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG" onClick={()=>{window.open('https://drive.google.com/file/d/1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG/view?usp=sharing')}} ><button className='app__header-btn'>Resume</button></a>
 
 </div>
      </motion.div>
