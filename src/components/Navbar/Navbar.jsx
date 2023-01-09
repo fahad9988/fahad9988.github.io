@@ -13,7 +13,7 @@ const [toggle, setToggle] = React.useState(false)
       </div>
       <ul className='app__navbar-links' >
         {["Home","About","Skills","Projects","Contact"].map((item)=>(
-        <li className='app__flex p-text' key={`link-${item}`}>
+        <li className='app__flex  p-text' key={`link-${item}`}>
           <div/>
           <a href={`#${item}`}>{item}</a>
         </li>

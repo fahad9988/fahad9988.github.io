@@ -30,6 +30,7 @@ import RelDigital from "../images/RelDigital.png";
 import AirGarage from "../images/AirGarage.png";
 import LoseIt from "../images/LoseIt.png";
 import linkedin from "../images/linkedin.png";
+import white from "../images/white-gif.gif";
 
 export default {
   linkedin,
@@ -53,5 +54,6 @@ export default {
   gitHub,
   mongoDb,
   expressJS,
-  vsCode
+  vsCode,
+  white
 };

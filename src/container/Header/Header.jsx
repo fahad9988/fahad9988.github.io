@@ -17,7 +17,7 @@ const scaleVariants={
 
 const Header = () => {
   return (
-    <div id="Home" className='app__header app__flex' >
+    <div id="Home" className='app__header app__flex'  >
       
      <motion.div  
      className='app__header-info' 
@@ -25,37 +25,18 @@ const Header = () => {
      transition={{duration:0.75}}
      >
 <div className='app__header-badge' >
-<div className='badge-cmp app__flex' >
-<span>👋</span>
+<div className='badge-cmp ' >
 <div style={{marginLeft:20}}>
-  <p className='p-text' >Hello, I am</p>
-  <h1 className='head-text head-head' >Fahad</h1>
+  <p className='head-text hello-hi'  >Hello 👋</p>
+  <h3 className='new' >I'm Fahad Arif,</h3>
+  <h3 className='new' >A Full Stack Web Developer & a Problem Solver. Looking forward towards new challenges.</h3>
 </div>
 </div>
 
-<div className='tag-cmp app__flex' >
-<p className='p-text-1' >Full Stack Web Developer</p>
-<p className='p-text' >Programmer</p>
-</div>
-
-<a href="https://drive.google.com/uc?export=download&id=1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG" onClick={()=>{window.open('https://drive.google.com/file/d/1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG/view?usp=sharing')}} ><button className='app__header-btn'>Resume</button></a>
+<a href="https://drive.google.com/uc?export=download&id=1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG" onClick={()=>{window.open('https://drive.google.com/file/d/1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG/view?usp=sharing')}} ><button className='app__header-btn'>My Resume</button>
+</a>
 
 </div>
-     </motion.div>
-
-     <motion.div 
-     className='app__header-img' 
-     whileInView={{opacity:[0,1]}}
-     transition={{duration:0.5,delayChildren:0.5}}
-     >
-<img src={images.robotic} alt="profile" />
-<motion.img
-className='overlay-circle' 
-whileInView={{scale:[0,1]}}
-transition={{duration:1,ease:"easeInOut"}}
-src={images.circle}
-alt="profile_circle"
-/>
      </motion.div>
 
      <motion.div 
@@ -63,11 +44,7 @@ alt="profile_circle"
      whileInView={scaleVariants.whileInView}
      className="app__header-circles"
      >
-{[images.react,images.redux,images.css].map((circle,index)=>{
-  return <div className="circle-cmp app__flex" key={`circle-${index}`} >
-    <img src={circle} alt="circle" />
-  </div>
-})}
+    <img src={images.white} alt="gif" />
      </motion.div>
 
     </div>
