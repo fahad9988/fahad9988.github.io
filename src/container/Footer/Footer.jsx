@@ -48,13 +48,13 @@ const handleSubmit=()=>{
       <div className="app__footer-cards">
 
         <div className="app__footer-card">
-          <a id="contact-email" href="mailto:fahad20830@gmail.com"><img className='mail-img' src={images.mail} alt="email" /></a>
-          <a href="mailto:fahad20830@gmail.com" className='p-text' >fahad20830@gmail.com</a>
+          <a href="mailto:fahad20830@gmail.com"><img className='mail-img' src={images.mail} alt="email" /></a>
+          <a id="contact-email" href="mailto:fahad20830@gmail.com" className='p-text' >fahad20830@gmail.com</a>
         </div>
         
         <div className="app__footer-card">
-          <a id="contact-phone" href="tel:+91 6389052323" ><img src={images.phone} alt="mobile" /></a> 
-          <a href="tel:+91 6389052323" className='p-text' >+91 6389052323</a>
+          <a href="tel:+91 6389052323" ><img src={images.phone} alt="mobile" /></a> 
+          <a id="contact-phone" href="tel:+91 6389052323" className='p-text' >+91 6389052323</a>
         </div>
 
         <div className="app__footer-card">
