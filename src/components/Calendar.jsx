@@ -11,7 +11,7 @@ const Calender = () => {
         username="fahad9988"
         blockSize={27}
         fontSize={15}
-        color="darkblue"
+        color="brown"
         hideTotalCount="false"
         blockMargin={4}
       >

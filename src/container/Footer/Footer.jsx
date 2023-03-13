@@ -43,27 +43,27 @@ const handleSubmit=()=>{
 }
 
   return (
-    <div id="Footer">
+    <div id="contact">
       <h1 className='Footer-Head' >Contact Me</h1>
       <div className="app__footer-cards">
 
         <div className="app__footer-card">
-          <a href="mailto:fahad20830@gmail.com"><img className='mail-img' src={images.mail} alt="email" /></a>
+          <a id="contact-email" href="mailto:fahad20830@gmail.com"><img className='mail-img' src={images.mail} alt="email" /></a>
           <a href="mailto:fahad20830@gmail.com" className='p-text' >fahad20830@gmail.com</a>
         </div>
         
         <div className="app__footer-card">
-          <a href="tel:+91 6389052323" ><img src={images.phone} alt="mobile" /></a> 
+          <a id="contact-phone" href="tel:+91 6389052323" ><img src={images.phone} alt="mobile" /></a> 
           <a href="tel:+91 6389052323" className='p-text' >+91 6389052323</a>
         </div>
 
         <div className="app__footer-card">
-          <a target="_blank" href="https://github.com/fahad9988"><img className='github-img' src={images.gitHub} alt="gitHub" /></a>
+          <a id="contact-github" target="_blank" href="https://github.com/fahad9988"><img className='github-img' src={images.gitHub} alt="gitHub" /></a>
           <a href="https://github.com/fahad9988" target="_blank" className='p-text' >Github</a>
         </div>
 
         <div className="app__footer-card">
-        <a target="_blank" href="https://www.linkedin.com/in/fahad-arif-9975b0239/"><img  src={images.linkedin} alt="linkedin" /></a>
+        <a id="contact-linkedin" target="_blank" href="https://www.linkedin.com/in/fahad-arif-9975b0239/"><img  src={images.linkedin} alt="linkedin" /></a>
           <a href="https://www.linkedin.com/in/fahad-arif-9975b0239/" target="_blank" className='p-text' >Linkedin</a>
         </div>
 
@@ -97,4 +97,4 @@ const handleSubmit=()=>{
   )
 }
 
-export default AppWrap(MotionWrap(Footer,"app__footer"),"Contact","app__primarybg")
+export default AppWrap(MotionWrap(Footer,"app__footer"),"contact","app__primarybg")

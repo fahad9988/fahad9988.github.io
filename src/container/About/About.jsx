@@ -5,11 +5,11 @@ import { AppWrap,MotionWrap } from '../../wrapper';
 
 const About = () => {
   return (
-    <div className='main' id="About" >
+    <div className='main' id="about" >
       <h1 className='head'>About Me</h1>
       <div className='app__about' >
         <div className='image' >
-          <img className='my-image' src={images.Fahad} alt="Profile-Image" />
+          <img className='my-image home-img' src={images.Fahad} alt="Profile-Image" />
         </div>
         <div className='text' >
           <h1>Hi 👋,</h1>
@@ -23,4 +23,4 @@ const About = () => {
   )
 }
 
-export default AppWrap(MotionWrap(About,"app__about"),"About","app__whitebg");
+export default AppWrap(MotionWrap(About,"app__about"),"about","app__whitebg");

@@ -4,7 +4,16 @@ import {motion} from "framer-motion";
 import images from '../../constants/images';
 import { AppWrap,MotionWrap } from '../../wrapper';
 
-const projects=[{
+const projects=[
+  {
+    image:images.Fashion,
+    title:"Fashionista",
+    desc:"This is the clone of Snapdeal website, an e-commerce website which deals with the sales of various products like clothing products, electronics etc. This is an collaborative project completed in a span of 5 days.",
+    tech:"HTML, CSS, JavaScript, React, React-Redux, Chakra UI",
+    git:"https://github.com/fahad9988/warm-afternoon-3310",
+    deploy:"https://darling-mooncake-57603b.netlify.app/"
+  },
+  {
   image:images.AirGarage,
   title:"Air Garage Clone",
   desc:"This is the clone of AirGarage website which is a full service parking operator. It helps us book parking slots across various places around the United States. This is a collaborative Team Project built by a team of 5 members in 4 days.",
@@ -31,7 +40,7 @@ const projects=[{
 
 const Projects = () => {
   return (
-    <div id="Projects" >
+    <div id="projects" >
 <h1 className='Project-Head' >Projects</h1>
 <div className='app__project'>
   {projects.map((item)=>{
@@ -39,15 +48,15 @@ const Projects = () => {
     whileInView={{opacity:1}}
     whileHover={{scale:1.05}}
     transition={{duration:0.5}}
-    className="app__project-item"
+    className="app__project-item project-card"
     key={item.title}
     >
     <img src={item.image} alt={item.title} />
-    <h2>{item.title}</h2>
-    <p className='app_desc' >{item.desc}</p>
-    <p className='app_tech-stack'>Tech Stack: {item.tech}</p>
+    <h2 class="project-title">{item.title}</h2>
+    <p className='app_desc project-description' >{item.desc}</p>
+    <p className='app_tech-stack project-tech-stack'>Tech Stack: {item.tech}</p>
     <div className='project-btn' >
-      <a target="_blank" href={item.git}><button>Github</button></a><a target="_blank" href={item.deploy}><button>Live Site</button></a>
+      <a className='project-github-link' target="_blank" href={item.git}><button>Github</button></a><a className='project-deployed-link' target="_blank" href={item.deploy}><button>Live Site</button></a>
     </div>
     </motion.div>
   })}
@@ -57,4 +66,4 @@ const Projects = () => {
   )
 }
 
-export default AppWrap(MotionWrap(Projects,'app__works'),"Projects",'app__whitebg')
+export default AppWrap(MotionWrap(Projects,'app__works'),"projects",'app__whitebg')

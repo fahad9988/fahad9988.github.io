@@ -7,6 +7,7 @@ const Stats = () => {
       <div className="streak-div"  >
         <a href="https://github.com/fahad9988">
           <img
+          id="github-streak-stats"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com?user=fahad9988"
           />
@@ -16,6 +17,7 @@ const Stats = () => {
       <div className="lang-div">
         <a href="https://github.com/fahad9988">  
           <img
+          id="github-top-langs"
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=fahad9988"  //launguages
           />
@@ -23,6 +25,7 @@ const Stats = () => {
         <a href="https://github.com/fahad9988">
           <img
           className="stat-img"
+          id="github-stats-card"
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=fahad9988&count_private=true&show_icons=true" //stats
           />

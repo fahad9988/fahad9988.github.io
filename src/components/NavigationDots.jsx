@@ -7,7 +7,7 @@ const NavigationDots = ({active}) => {
      <a 
      key={item+index}
      className="app__navigation-dot"
-     href={`#${item}`}
+     href={`#${item.toLowerCase()}`}
      style={active===item? {backgroundColor:"black"}:{}}
      />
 ))} 

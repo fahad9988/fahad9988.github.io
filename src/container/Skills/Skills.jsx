@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState,useEffect } from 'react';
 import {motion} from "framer-motion";
 import {AppWrap,MotionWrap} from "../../wrapper";
 import images from "../../constants/images";
@@ -23,21 +22,21 @@ const skills=[
 
 const Skills = () => {
   return (
-    <div id="Skills" >
-      <h1 className='Skill-Head' >Technical Skills</h1>
+    <div id="skills" >
+      <h1 className='Skill-Head' >Skills & Tools</h1>
       <div className='app__skills-container' >
         <motion.div className='app__skills-list'>
            {skills.map((skill)=>{
             return <motion.div
             whileInView={{opacity:[0,1]}}
             transition={{duration:0.5}}
-            className="app__skill-item app__flex"
+            className="app__skill-item app__flex skills-card"
             key={skill.name}
             >
-              <div className="app__flex" style={{backgroundColor:skill.bgColor}} >
-                <img src={skill.icon} alt={skill.name} />
+              <div className="app__flex"  >
+                <img class="skills-card-img" src={skill.icon} alt={skill.name} />
               </div>
-              <p className='p-text' >{skill.name}</p>
+              <p className='p-text skills-card-name' >{skill.name}</p>
             </motion.div>
            })}
         </motion.div>
@@ -47,4 +46,4 @@ const Skills = () => {
   )
 }
 
-export default AppWrap(MotionWrap(Skills,'app__skills'),"Skills",'app__primarybg')
+export default AppWrap(MotionWrap(Skills,'app__skills'),"skills",'app__primarybg')

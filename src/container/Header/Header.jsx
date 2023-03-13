@@ -17,7 +17,7 @@ const scaleVariants={
 
 const Header = () => {
   return (
-    <div id="Home" className='app__header app__flex'  >
+    <div id="home" className='app__header app__flex'  >
       
      <motion.div  
      className='app__header-info' 
@@ -28,12 +28,12 @@ const Header = () => {
 <div className='badge-cmp ' >
 <div style={{marginLeft:20}}>
   <p className='head-text hello-hi'  >Hello 👋</p>
-  <h3 className='new' >I'm Fahad Arif,</h3>
-  <h3 className='new' >A Full Stack Web Developer & a Problem Solver. Looking forward towards new challenges.</h3>
+  <h3 className='new' id="user-detail-name" >I'm Fahad Arif,</h3>
+  <h3 className='new' id="user-detail-intro">A Full Stack Web Developer & a Problem Solver. Looking forward towards new challenges.</h3>
 </div>
 </div>
 
-<a href="https://drive.google.com/uc?export=download&id=1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG" onClick={()=>{window.open('https://drive.google.com/file/d/1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG/view?usp=sharing')}} ><button className='app__header-btn'>My Resume</button>
+<a id="resume-link-2" href="https://drive.google.com/uc?export=download&id=1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG" onClick={()=>{window.open('https://drive.google.com/file/d/1F8rF5bGcV3oyXt6L5wcu-LvRDn3bNXPG/view?usp=sharing')}} ><button className='app__header-btn'>My Resume</button>
 </a>
 
 </div>
@@ -51,4 +51,4 @@ const Header = () => {
   )
 }
 
-export default AppWrap(Header,"Home")
+export default AppWrap(Header,"home")
