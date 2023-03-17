@@ -9,13 +9,9 @@
  }
 }
 
-.app__footer{
- flex: 1;
- width: 100%;
- flex-direction: column;
-}
 
-.app__footer-cards{
+
+.fahad_contact_social{
  width: 60%;
  display: flex;
  justify-content: space-evenly;
@@ -25,7 +21,7 @@
  margin-top: 4rem ;
 
 
- .app__footer-card{
+ .fahad_social_card{
   min-width: 290px;
   height: 75px;
   display: flex;
@@ -77,7 +73,7 @@
  }
 }
 
-.app__footer-form{
+.fahad_contact_form{
 width: 60%;
 flex-direction: column;
 margin: auto;

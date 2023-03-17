@@ -9,7 +9,7 @@
  }
 }
 
-.app__project{
+.fahad_projects{
  display: flex;
  justify-content: center;
  align-items: flex-start;
@@ -18,7 +18,7 @@
 
 }
 
-.app__project-item{
+.fahad_single_project{
  background-color: var(--primary-color);
  border-radius: 10px;
  width: 450px;
@@ -27,10 +27,10 @@
  align-items: flex-start;
  flex-direction: column;
  margin: 2rem;
-padding: 30px;
-text-align: center;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-transition: all 0.2s ease;
+ padding: 30px;
+ text-align: center;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ transition: all 0.2s ease;
 
 @media screen and (max-width:700px) {
   width: 400px;
@@ -98,22 +98,23 @@ h2{
    height: 100px;
    }
 
-   .app_desc{
-    @media screen and (max-width:700px) {
-      font-size: 15px;
-   }
    
-   @media screen and (max-width:650px) {
-     font-size: 15px;
-    }
-   
-    @media screen and (max-width:550px) {
-     font-size: 13px;
-    }
-   }
    
  }
- .app_tech-stack{
+ .fahad_project_desc{
+  @media screen and (max-width:700px) {
+    font-size: 15px;
+ }
+ 
+ @media screen and (max-width:650px) {
+   font-size: 15px;
+  }
+ 
+  @media screen and (max-width:550px) {
+   font-size: 13px;
+  }
+ }
+ .fahad_tech-stack{
   margin: auto;
   font-size: 17px;
   font-weight: bold;

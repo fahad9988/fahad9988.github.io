@@ -24,13 +24,13 @@ const Skills = () => {
   return (
     <div id="skills" >
       <h1 className='Skill-Head' >Skills & Tools</h1>
-      <div className='app__skills-container' >
-        <motion.div className='app__skills-list'>
+      <div className='fahad_skills_container' >
+        <motion.div className='fahad_skills_box'>
            {skills.map((skill)=>{
             return <motion.div
             whileInView={{opacity:[0,1]}}
             transition={{duration:0.5}}
-            className="app__skill-item app__flex skills-card"
+            className="fahad_single_skill app__flex skills-card"
             key={skill.name}
             >
               <div className="app__flex"  >
@@ -40,10 +40,9 @@ const Skills = () => {
             </motion.div>
            })}
         </motion.div>
-
       </div>
     </div>
   )
 }
 
-export default AppWrap(MotionWrap(Skills,'app__skills'),"skills",'app__primarybg')
+export default AppWrap(MotionWrap(Skills,'fahad_skills_container'),"skills",'app__primarybg')

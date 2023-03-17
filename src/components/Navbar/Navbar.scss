@@ -1,4 +1,4 @@
-.app__navbar{
+.fahad_navbar{
  width:100%;
  display:flex;
  align-items: center;
@@ -12,7 +12,7 @@ position: fixed;
 z-index: 2;
 }
 
-.app__navbar-logo{
+.fahad_navbar_logo{
  display: flex;
  align-items: center;
  justify-content: flex-start;
@@ -24,7 +24,7 @@ z-index: 2;
 }
 
 
-.app__navbar-links{
+.fahad_navbar_links{
  flex: 1;
  display: flex;
  justify-content: center;
@@ -70,7 +70,7 @@ z-index: 2;
  }
 }
 
-.app__nav-btn{
+.fahad_nav_button{
  padding: 10px 15px;
  font-weight: 500;
  font-size: 16px;
@@ -95,7 +95,7 @@ transition: all 0.3s ease;
 }
 
 
-.app__navbar-menu{
+.fahad_navbar_menu{
  width: 35px;
  height: 35px;
  border-radius: 50%;

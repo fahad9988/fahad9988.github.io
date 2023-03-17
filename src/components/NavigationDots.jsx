@@ -8,7 +8,7 @@ const NavigationDots = ({active}) => {
      key={item+index}
      className="app__navigation-dot"
      href={`#${item.toLowerCase()}`}
-     style={active===item? {backgroundColor:"black"}:{}}
+     style={active===item.toLowerCase()? {backgroundColor:"black"}:{}}
      />
 ))} 
 </div>

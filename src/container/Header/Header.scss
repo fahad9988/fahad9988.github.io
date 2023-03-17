@@ -1,13 +1,11 @@
 #home{
  position: relative;
-
  .app__wrapper{
   padding: 0;
-
  }
 }
 
-.app__header{
+.fahad_header{
  flex:1;
  width: 100%;
  height: 100%;
@@ -26,7 +24,7 @@
  }
 }
 
-.app__header-info{
+.fahad_header_intro{
  flex: 1;
  display: flex;
  flex-direction: column;
@@ -45,7 +43,7 @@
  }
 }
 
-.app__header-badge{
+.fahad_header_box{
  width: 90%;
  display: flex;
  justify-content: flex-end;
@@ -111,7 +109,7 @@
  
  }
 
- .app__header-btn{
+ .fahad_header_button{
   margin-top: 2rem;
   padding: 15px 20px;
 font-weight: 500;
@@ -158,7 +156,7 @@ transition: all 0.3s ease;
 }
 
 
-.app__header-image{
+.fahad_header_greet{
  flex:1;
  display: flex;
  justify-content: center;
