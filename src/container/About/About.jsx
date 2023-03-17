@@ -13,8 +13,8 @@ const About = () => {
         </div>
         <div className='text' >
           <h1>Hi 👋,</h1>
-          <h1>I'm Fahad Arif</h1>
-          <p>
+          <h1 id="user-detail-name">I'm Fahad Arif</h1>
+          <p id="user-detail-intro">
           An enthusiastic and hardworking Full Stack Web Developer with hands on experience in building and maintaining MERN based web applications. Looking forward to join a progressive and a challenging work environment and has the ability to collaborate well in Team Projects. Capable of writing production-ready code using HTML, CSS, JavaScript, ReactJS and Redux on the front-end side and NodeJS, ExpressJS and MongoDB on the back-end side. 
           </p>
         </div>
