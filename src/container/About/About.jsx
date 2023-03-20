@@ -5,7 +5,7 @@ import { AppWrap,MotionWrap } from '../../wrapper';
 
 const About = () => {
   return (
-    <div  id="about" >
+    <div  id="about" class="about section" >
       <h1 className='About-Head'>About Me</h1>
       <div className='fahad_about' >
         <div className='image' >
