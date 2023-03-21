@@ -22,6 +22,7 @@ import Fashion from "../images/Fashion.png";
 import LoseIt from "../images/LoseIt.png";
 import linkedin from "../images/linkedin.png";
 import white from "../images/white-gif.gif";
+import Trendy from "../images/Trendy.png"
 
 export default {
   linkedin,
@@ -47,5 +48,6 @@ export default {
   expressJS,
   vsCode,
   white,
-  Fashion
+  Fashion,
+  Trendy
 };

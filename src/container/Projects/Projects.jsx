@@ -6,6 +6,14 @@ import { AppWrap,MotionWrap } from '../../wrapper';
 
 const projects=[
   {
+  image:images.Trendy,
+  title:"Trendy Mart",
+  desc:"This is the clone of Bloomingdale's website, an e-commerce website which deals with the sales of variety of products like jewellery, clothing, shoes etc.",
+  tech:"HTML, CSS, JavaScript, React, Redux, Chakra-UI, NodeJS, ExpressJS, MongoDB",
+  git:"https://github.com/UMAR44641/TrendyMart",
+  deploy:"https://trendy-mart.vercel.app/"
+},
+  {
     image:images.Fashion,
     title:"Fashionista",
     desc:"This is the clone of Snapdeal website, an e-commerce website which deals with the sales of various products like clothing products, electronics etc.",
@@ -28,15 +36,8 @@ const projects=[
   tech:"React, JS, ChakraUI, SwiperJS",
   git:"https://github.com/fahad9988/plum-leg-9420",
   deploy:"https://aliveapp.netlify.app/"
-},
-{
-  image:images.RelDigital,
-  title:"Reliance Digital Clone",
-  desc:"This is the clone of Reliance Digital website, an e-commerce website which deals with the sales of electronic products.",
-  tech:"HTML, CSS, JavaScript",
-  git:"https://github.com/fahad9988/available-blood-5696",
-  deploy:"https://fahad-web-101-construct-week-project.netlify.app/"
-}]
+}
+]
 
 const Projects = () => {
   return (
