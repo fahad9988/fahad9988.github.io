@@ -1,3 +1,13 @@
+#projects{
+  min-height: 100vh;
+  padding: 3rem 0rem 2rem;
+ 
+  @media screen and (max-width:800px) {
+ padding: 2.5rem 0rem 2rem;
+  }
+ }
+
+
 .Project-Head{
  font-size: 40px;
  text-align: center;
@@ -28,22 +38,23 @@
  flex-direction: column;
  margin: 2rem;
  padding: 30px;
- text-align: center;
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  transition: all 0.2s ease;
+ min-height: 525px;
+ position: relative;
 
-@media screen and (max-width:700px) {
-  width: 400px;
-}
 
-@media screen and (max-width:650px) {
-  width: 300px ;
-  padding: 20px;
- }
 
  @media screen and (max-width:550px) {
-  width: 230px ;
-  padding: 20px;
+  width: 400px ;
+  padding: 25px;
+  min-height:500px ;
+ }
+
+ @media screen and (max-width:450px) {
+  width: 250px ;
+  padding: 10px;
+  min-height:400px ;
  }
  
  
@@ -67,15 +78,10 @@ h2{
  margin-top: 10px;
  margin-bottom: 5px;
 
- @media screen and (max-width:700px) {
-   font-size: 18px;
-}
 
-@media screen and (max-width:650px) {
-  font-size: 18px;
- }
 
- @media screen and (max-width:550px) {
+
+ @media screen and (max-width:450px) {
   font-size: 18px;
  }
 }
@@ -86,52 +92,39 @@ h2{
   border-radius: 10px;
   border: 3.5px solid black;
   object-fit: cover;
-  @media screen and (max-width:700px) {
-    height: 175px;
-  }
+ 
   
-  @media screen and (max-width:650px) {
-    height: 145px;
-   }
+  @media screen and (max-width:550px) {
+    height: 200px;
+    }
 
-   @media screen and (max-width:550px) {
-   height: 100px;
+   @media screen and (max-width:450px) {
+   height: 125px;
    }
 
    
    
  }
  .fahad_project_desc{
-  @media screen and (max-width:700px) {
-    font-size: 15px;
- }
+
+
  
- @media screen and (max-width:650px) {
-   font-size: 15px;
-  }
- 
-  @media screen and (max-width:550px) {
+  @media screen and (max-width:450px) {
    font-size: 13px;
   }
  }
  .fahad_tech-stack{
-  margin: auto;
   font-size: 17px;
   font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  bottom: 90px;
+ text-align: left;
 
 
-  @media screen and (max-width:700px) {
-    font-size: 16px;
- }
+
  
- @media screen and (max-width:650px) {
-   font-size: 16px;
-  }
- 
-  @media screen and (max-width:550px) {
-   font-size: 14px;
+  @media screen and (max-width:450px) {
+   font-size: 13px;
   }
  }
  
@@ -142,10 +135,20 @@ h2{
  display: flex;
  width: 250px;
  justify-content: space-between;
- margin: auto;
+ position: absolute;
+ 
+ bottom: 30px;
+ left: 100px;
+ margin: 0px auto;
+ 
  @media screen and (max-width:550px) {
   width: 170px ;
-  
+  left: 115px;
+ }
+
+ @media screen and (max-width:450px) {
+  width: 170px ;
+  left: 40px;
  }
  
 

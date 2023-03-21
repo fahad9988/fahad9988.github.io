@@ -1,3 +1,14 @@
+#skills{
+   min-height: 100vh;
+   padding: 1.5rem 0rem 0rem;
+  
+   @media screen and (max-width:800px) {
+  padding: 1.5rem 0rem 2rem;
+   }
+  }
+
+
+
 .Skill-Head{
  font-size: 40px;
  text-align: center;

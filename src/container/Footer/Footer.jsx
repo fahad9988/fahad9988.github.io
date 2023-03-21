@@ -69,7 +69,8 @@ const handleSubmit=()=>{
 
       </div>
 
-      {!formSubmit?<div className="fahad_contact_form app__flex">
+      {!formSubmit?
+      <div className="fahad_contact_form app__flex">
         <div className='app__flex' >
           <input type="text" className='p-text' name='name' placeholder='Your Name' value={name} onChange={handleChange} />
           </div>
@@ -88,9 +89,11 @@ const handleSubmit=()=>{
        <button type='button' className='p-text' onClick={handleSubmit} >
         {loading?"Sending":"Send Message"}
        </button>
-      </div>:<div>
+      </div>
+      :
+      <div>
         <h3 className='head-text'>Thank You for getting in touch!</h3>
-        </div>
+      </div>
         }
 
     </div>

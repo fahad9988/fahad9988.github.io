@@ -17,7 +17,7 @@ const scaleVariants={
 
 const Header = () => {
   return (
-    <div id="home" className='fahad_header app__flex'  >
+    <div id="home" className='fahad_header'  >
       
      <motion.div  
      className='fahad_header_intro' 

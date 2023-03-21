@@ -1,3 +1,13 @@
+#contact{
+  min-height: 100vh;
+  padding: 3rem 0rem 2rem;
+ 
+  @media screen and (max-width:800px) {
+ padding: 2.5rem 0rem 2rem;
+  }
+ }
+
+
 .Footer-Head{
  font-size: 40px;
  text-align: center;
@@ -18,8 +28,7 @@
  align-items: center;
  flex-wrap: wrap;
  margin: auto;
- margin-top: 4rem ;
-
+ 
 
  .fahad_social_card{
   min-width: 290px;
@@ -70,6 +79,7 @@
 
  @media screen and (max-width:768px) {
   width: 100%;
+  padding: 0px 10px;
  }
 }
 
@@ -132,5 +142,6 @@ button{
 @media screen and (max-width:768px) {
  width: 100%;
  margin: 1rem 0;
+ padding: 0px 10px;
 }
 }
