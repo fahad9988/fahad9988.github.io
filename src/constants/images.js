@@ -22,7 +22,8 @@ import Fashion from "../images/Fashion.png";
 import LoseIt from "../images/LoseIt.png";
 import linkedin from "../images/linkedin.png";
 import white from "../images/white-gif.gif";
-import Trendy from "../images/Trendy.png"
+import Trendy from "../images/Trendy.png";
+import ShoppingQuest from "../images/shopping-quest.png";
 
 export default {
   linkedin,
@@ -49,5 +50,6 @@ export default {
   vsCode,
   white,
   Fashion,
-  Trendy
+  Trendy,
+  ShoppingQuest
 };

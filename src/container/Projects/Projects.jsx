@@ -22,6 +22,14 @@ const projects=[
     deploy:"https://darling-mooncake-57603b.netlify.app/"
   },
   {
+    image:images.ShoppingQuest,
+    title:"Shopping Quest",
+    desc:"This is the clone of Amazon website,one of the world's largest e-commerce website which deals with the sales of a huge variety of products.",
+    tech:"HTML, CSS, JavaScript, React, Redux, Chakra-UI, NodeJS, ExpressJS, MongoDB",
+    git:"https://github.com/fahad9988/Shopping-Quest",
+    deploy:"https://shopping-quest.vercel.app/"
+  },
+  {
   image:images.AirGarage,
   title:"Air Garage Clone",
   desc:"This is the clone of AirGarage website which is a full service parking operator. It helps us book parking slots across various places around the United States.",
@@ -32,10 +40,18 @@ const projects=[
 {
   image:images.LoseIt,
   title:"Lose It Clone",
-  desc:"This is the clone of LoseIt! website which is a weight Loss website created with the goal of helping members reach a healthy weight by providing them with the tools such as daily calorie budget counter .",
+  desc:"This is the clone of LoseIt! website which is a weight Loss website created with the goal of helping members reach a healthy weight by providing them with the tools such as daily calorie budget counter.",
   tech:"React, JS, ChakraUI, SwiperJS",
   git:"https://github.com/fahad9988/plum-leg-9420",
   deploy:"https://aliveapp.netlify.app/"
+},
+{
+  image:images.RelDigital,
+  title:"Reliance Digital Clone",
+  desc:"This is the clone of Reliance Digital website which is an e-commerce website which deals with the sales of electronic products.",
+  tech:"HTML, CSS, JavaScript",
+  git:"https://github.com/fahad9988/Reliance-Digital-Clone",
+  deploy:"https://fahad-web-101-construct-week-project.netlify.app/"
 }
 ]
 
