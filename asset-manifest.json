@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.a12009fc.css",
-    "main.js": "/static/js/main.9681b4c6.js",
+    "main.js": "/static/js/main.17037594.js",
     "static/media/white-gif.gif": "/static/media/white-gif.c58e8ea69ddc55cdc91c.gif",
     "static/media/RelDigital.png": "/static/media/RelDigital.c7e3be92d862603b0cfc.png",
     "static/media/Fashion.png": "/static/media/Fashion.d2bd502940f5d2a0fc76.png",
+    "static/media/shopping-quest.png": "/static/media/shopping-quest.b4884adebd8161bc143c.png",
     "static/media/Trendy.png": "/static/media/Trendy.4873bc9ccf3e0f4224ca.png",
     "static/media/robot-png-33316.png": "/static/media/robot-png-33316.ef270346fb963aebb4c0.png",
     "static/media/LoseIt.png": "/static/media/LoseIt.68ece5203b1bafbec48a.png",
@@ -18,10 +19,10 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.a12009fc.css.map": "/static/css/main.a12009fc.css.map",
-    "main.9681b4c6.js.map": "/static/js/main.9681b4c6.js.map"
+    "main.17037594.js.map": "/static/js/main.17037594.js.map"
   },
   "entrypoints": [
     "static/css/main.a12009fc.css",
-    "static/js/main.9681b4c6.js"
+    "static/js/main.17037594.js"
   ]
 }
