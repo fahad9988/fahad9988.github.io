@@ -19,7 +19,7 @@ const projects=[
     desc:"This is the clone of Snapdeal website, an e-commerce website which deals with the sales of various products like clothing products, electronics etc.",
     tech:"HTML, CSS, JavaScript, React, React-Redux, Chakra UI",
     git:"https://github.com/fahad9988/warm-afternoon-3310",
-    deploy:"https://darling-mooncake-57603b.netlify.app/"
+    deploy:"https://fashionista-rct201.netlify.app/"
   },
   {
     image:images.ShoppingQuest,
